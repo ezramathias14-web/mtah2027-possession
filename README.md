@@ -1,5 +1,20 @@
 # More than a Hack 2027 — Phase 1: Ball Possession
 
+> **This repository is a participant submission**, built on top of the official starter
+> repository ([metrica-sports/more-than-a-hack-2027](https://github.com/metrica-sports/more-than-a-hack-2027),
+> MIT). Our method lives in [`solution/`](solution/) and is described in
+> [`solution/TECHNICAL.md`](solution/TECHNICAL.md). To regenerate the submission file from the
+> data bundle (which is not, and must not be, in this repository):
+>
+> ```bash
+> pip install -r requirements.txt
+> export MTAH_DATA_DIR=/path/to/mtah2027      # PowerShell: $env:MTAH_DATA_DIR = "..."
+> python solution/possession_hmm.py          # -> evaluation/results/possession_hmm_v2.csv
+> python evaluation/validate_submission.py evaluation/results/possession_hmm_v2.csv
+> ```
+>
+> Everything below this box is the organisers' original README.
+
 **Organised by [Metrica Sports](https://metrica-sports.com), [FC Barcelona](https://www.fcbarcelona.com)
 and the [Mobile World Capital Barcelona](https://www.mwcbarcelona.com)**, at the Talent Arena in Barcelona.
 
