@@ -1,0 +1,8 @@
+# Ball detector (solution/ball_detector.py). CPU-only PyTorch wheels live on PyTorch's index.
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy==2.4.6
+opencv-python-headless==5.0.0.93
+pandas==3.1.0
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+ultralytics==8.4.188
